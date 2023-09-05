@@ -18,7 +18,7 @@ class CounterList extends Component{
             <div className="card" style={{ width: "18rem" }}>
                 <ul className="list-group list-group-flush">
                     <div className="d-inline-flex align-items-center mx-2">
-                        <li className="list-group-item"> ราคารวม : {this.getTotalPrice()}</li>
+                        <li className="list-group-item"> ราคารวมทั้งหมด : {this.getTotalPrice()}</li>
 
                         <button
                         onClick={this.resetButton}
